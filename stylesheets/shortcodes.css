@@ -153,7 +153,9 @@
     color: #e2a538;
     border-radius: 3px;
 	border: 2px solid rgba(255, 255, 255, 0.1);
-	box-shadow: 3px 3px 6px rgb(0 0 0 / 20%);
+    box-shadow: 3px 3px 6px rgb(0 0 0 / 20%);
+    margin-top: 30px;
+    margin-bottom: 30px;
 
 }
 .btn-color.yellow_2:hover{
@@ -162,6 +164,8 @@
     border-radius: 3px;
 	border: 2px solid rgba(255, 255, 255, 0.1);
     box-shadow: 3px 3px 6px rgb(0 0 0 / 20%);
+    margin-top: 30px;
+    margin-bottom: 30px;
 
 }
 
@@ -766,9 +770,9 @@
 .flat-testimonials-slider p {
     font-style: italic;
     font-family: "PT serif",sans-serif;
-    font-size: 17px;
+    font-size: 18px;
     line-height: 30px;
-    color: #666;
+    color: #2e2e2e;
     padding-bottom: 10px;
 }
 
@@ -850,7 +854,7 @@
 
 .flat-team .avatar .content {
     position: absolute;
-    bottom: -40px;
+    bottom: -80px;
     left: 0;
     width: 100%;
     background-color: #e2a538;
@@ -888,25 +892,26 @@
 
 .flat-team .avatar:hover .content h6.name,
 .flat-team .avatar:hover .content span.position {
-    color: #fff;
+    color: #2e2e2e;
 }
 
 .flat-team h6.name {
     text-transform: uppercase;
-    color: #edb820;
+    color: #2e2e2e;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .flat-team .position {
-    font-style: italic;
-    font-family: "PT serif",sans-serif;
-    font-size: 14px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
     line-height: 23px;
-    color: #bcbcbc;
+    color: #e2a538;
 }
 
 .flat-team .overlay h6.name ,
 .flat-team .overlay .position {
-    color: #fff;
+    color: #2e2e2e;
 }
 
 /* Style 2 */
@@ -1504,7 +1509,7 @@
 ----------------------------------------------------------------------*/
 .contact-content {
     text-align: center;
-    border: 2px solid #e5e5e5;
+    border: 2px solid #e2a538;
 }
 
 .contact-content .contact-address {
@@ -1513,16 +1518,16 @@
 }
 
 .contact-content .details h5 {
-    font-family: "montserrat",sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 20px;
-    color: #333333;
+    color: #e2a538;
     line-height: 25px;
     margin-bottom: 15px;
 }
 
 .contact-content .details p {
-    color: #666666;
-    font-family: "Muli", sans-serif;
+    color: #e2a538;
+    font-family: 'Oswald', sans-serif;
 }
 
 .contact-address .style1 img {
@@ -1841,6 +1846,7 @@ ul.flat-list li:before {
     color: #2e2e2e;
     margin-bottom: 15px;
     text-align: left;
+    
 }
 
 .flat-counter .numb-count.percent {
@@ -1849,11 +1855,30 @@ ul.flat-list li:before {
 
 .flat-counter .numb-count.percent:after {
     position: absolute;
-    right: 127px;
-    top: -10px;
+    right: 20px;
+    top: 0px;
     content: "%";
     font-size: 40px;
-    color: #edb820;
+    color: #2e2e2e;
+}
+.flat-counter .numb-count.percent:after {
+    position: absolute;
+    right: 20px;
+    top: 0px;
+    content: "%";
+    font-size: 40px;
+    color: #2e2e2e;
+}
+.flat-counter .numb-count.mas {
+    position: relative;
+}
+.flat-counter .numb-count.mas:after {
+    position: absolute;
+    left: -25px;
+    top: 0px;
+    content: "+";
+    font-size: 40px;
+    color: #2e2e2e;
 }
 
 .flat-counter .name-count {
@@ -1862,6 +1887,7 @@ ul.flat-list li:before {
     color: #2e2e2e;
     margin-bottom: 18px;
     text-align: left;
+    font-weight: 700;
 }
 
 .flat-counter .desc-count {

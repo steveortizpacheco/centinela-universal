@@ -49,6 +49,13 @@
 		   -ms-text-size-adjust: 100%;
 	}
 	/*-------------------estilos nuevo--------------------------*/
+	.margen-negativo-imagen{
+		margin-right:  -114px;
+		
+	}
+	.margenlateral{
+		left: 20px;
+	}
 	.texto-centro{
 		text-align: center;
 	}
@@ -1313,6 +1320,8 @@ box-shadow: 3px 3px 6px rgb(0 0 0 / 40%);
 	text-align: center;
 	padding: 243px 0 87px 0;
 	letter-spacing: 2.1px;
+	text-shadow: 3px 3px 6px rgb(0 0 0 / 40%);
+
 }
 
 .page-title.bg-black-sv .overlay {
@@ -1857,17 +1866,17 @@ blockquote .whisper {
 
 .flat-contact-form .input-wrap::before,
 .flat-contact-form .textarea-wrap::before {
-    content: "\f007";
+    content: "";
     font-family: "FontAwesome";
     font-size: 14px;
     line-height: 23px;
     position: absolute;
-    top: 13px;
-    left: 15px;
-    color: #bcbcbc;
+    top: 0px;
+    left: 0px;
+    color: #2e2e2e;
 }
 
-.flat-contact-form .input-wrap.email::before {
+/*.flat-contact-form .input-wrap.email::before {
 	content: "\f0e0";
 }
 
@@ -1877,7 +1886,7 @@ blockquote .whisper {
 
 .flat-contact-form .textarea-wrap::before {
 	content: "\f075";
-}
+}*/
 
 .contact .comment-form .email-container,
 .flat-contact-form .input-wrap.email {
@@ -3074,6 +3083,8 @@ blockquote .whisper {
 .parallax3 { background-image: url(../images/parallax/a3.jpg); }
 .parallax4 { background-image: url(../images/parallax/a4.jpg); }
 .parallax5 { background-image: url(../images/parallax/a5.jpg); }
+.parallax6 { background-image: url(../images/parallax/a6.jpg); }
+.parallax7 { background-image: url(../images/parallax/a7.jpg); }
 
 
 .parallax-callout { background-image: url(../images/parallax/parallax-pagecallout.jpg); }
