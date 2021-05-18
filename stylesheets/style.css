@@ -1318,7 +1318,7 @@ box-shadow: 3px 3px 6px rgb(0 0 0 / 40%);
 .page-title .page-title-heading h2 {
 	color: #ffffff;
 	text-align: center;
-	padding: 243px 0 87px 0;
+	padding: 344px 0 18px 0;
 	letter-spacing: 2.1px;
 	text-shadow: 3px 3px 6px rgb(0 0 0 / 40%);
 
@@ -1366,7 +1366,7 @@ box-shadow: 3px 3px 6px rgb(0 0 0 / 40%);
 
 .breadcrumbs ul li ,.breadcrumbs ul li a  {
 	font-size: 14px;
-	line-height: 30px;
+	line-height: 0px;
 	font-family: "PT Serif", sans-serif;
 	font-style: italic;
 	color: #fff;
