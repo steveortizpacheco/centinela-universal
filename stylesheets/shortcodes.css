@@ -101,7 +101,20 @@
     display: inline-block;
     line-height: 1;
     text-transform: uppercase;
+    position: relative;
+    z-index: 9;
 }
+.flat-btn-2 {
+    border: none;
+    padding: 10px 30px 10px 21px;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    line-height: 1;
+    
+   
+}
+
 
 .btn-small {
     padding: 13px 22px;
@@ -139,8 +152,26 @@
 }
 
 .btn-color.orange {
-    background: #ffae4e;
-    color: #fff;
+   
+    color: #e2a538;
+    border: 1px solid #e2a538;
+}
+.btn-color.orange:hover{
+    color: #eab817;
+    border: 1px solid #eab817;
+
+}
+.icono-boton-trabajo{
+    font-size: 30px;
+    width: 40px;
+    height: 34px;
+    position: absolute;
+    display: block;
+    margin-left: -40px;
+    margin-top: -4px;
+    background-color: #2e2e2e;
+    padding: -2px 0px;
+    padding-top: 4px;
 }
 
 .btn-color.yellow {
